@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Listeners">
+   <listeners>
+   <listener class-name="testapplication.TestNGListeners"></listener>
+   </listeners>
+   
+  <test thread-count="5" name="Test_transactions">
+    <classes>
+      <class name="Transactions.StatementCollection"/>
+      <class name="Transactions.InvoiceCollection"></class>
+    </classes>
+  </test> <!-- Test_transactions -->
+</suite> <!-- Listeners -->

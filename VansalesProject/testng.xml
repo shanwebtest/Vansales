@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    
+     <!--      
+  
+      <class name="test.Vivensas_Contact_Us_PageTest_TestNGTest"/>
+      <class name="test.Product_Page_Test_TestngTest">
+      <methods>
+             <include name="ProductListpage_Title"></include>      
+      </methods>
+ 
+      </class>
+      
+              
+     <class name="testapplication.GetAllLinks"/> 
+         <class name="testapplication.Login"/>
+         <class name="testapplication.Restaurant"/> 
+         <class name="testapplication.Login"/>
+          <class name="Transactions.TransferAsset"/>
+           <class name="Transactions.Report"/>
+         -->
+          
+             <class name="Masters.MenuNavigations">
+              <methods> 
+              
+               <include name="Mastermenuclick"></include>
+               <include name="TransactionMenuClick"></include>
+               
+              </methods>
+         
+         </class>
+        
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

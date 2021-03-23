@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="10" name="Test2(failed)" parallel="tests">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="Transactions.StatementCollection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="verifyCollectedAmt"/>
+          <include name="teardown"/>
+          <include name="closeBrosers"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Transactions.StatementCollection -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="10" name="Test1(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="Transactions.StatementCollection">
+        <methods>
+          <include name="statement_Collection_Create" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="verifyCollectedAmt"/>
+          <include name="teardown"/>
+          <include name="closeBrosers"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Transactions.StatementCollection -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

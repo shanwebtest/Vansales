@@ -1,0 +1,16 @@
+[INFO ] 2021-02-33 19:51:07.877 [main] Log4jDemo - mainSG
+[ERROR] 2021-02-33 19:51:07.882 [main] Log4jDemo - mainSG
+[WARN ] 2021-02-33 19:51:07.883 [main] Log4jDemo - mainSG
+[FATAL] 2021-02-33 19:51:07.884 [main] Log4jDemo - mainSG
+[INFO ] 2021-02-33 20:14:56.623 [main] Log4jDemo - mainSG
+[ERROR] 2021-02-33 20:14:56.627 [main] Log4jDemo - mainSG
+[WARN ] 2021-02-33 20:14:56.627 [main] Log4jDemo - mainSG
+[FATAL] 2021-02-33 20:14:56.628 [main] Log4jDemo - mainSG
+[INFO ] 2021-02-33 20:19:47.297 [main] Log4jDemo - Test message
+[ERROR] 2021-02-33 20:19:47.301 [main] Log4jDemo - test Error
+[WARN ] 2021-02-33 20:19:47.302 [main] Log4jDemo - Test warning message
+[FATAL] 2021-02-33 20:19:47.302 [main] Log4jDemo - Test fater errror
+[INFO ] 2021-02-40 12:36:22.033 [main] Log4jDemo - Test message
+[ERROR] 2021-02-40 12:36:22.068 [main] Log4jDemo - test Error
+[WARN ] 2021-02-40 12:36:22.069 [main] Log4jDemo - Test warning message
+[FATAL] 2021-02-40 12:36:22.069 [main] Log4jDemo - Test fater errror

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Listeners]">
+  <listeners>
+    <listener class-name="testapplication.TestNGListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test_transactions(failed)">
+    <classes>
+      <class name="Transactions.StatementCollection">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="teardown"/>
+          <include name="closeBrosers"/>
+          <include name="beforeMethod"/>
+          <include name="FieldValidation"/>
+        </methods>
+      </class> <!-- Transactions.StatementCollection -->
+    </classes>
+  </test> <!-- Test_transactions(failed) -->
+</suite> <!-- Failed suite [Listeners] -->
