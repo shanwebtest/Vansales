@@ -153,8 +153,14 @@ public class Xls_Reader1 {
 	    // value from rowNumber and cell Number 
 	    cell =sh.getRow(rowNumber).getCell(cellNumber);
 	  
+	    
+
+		 DataFormatter formatter = new DataFormatter();
+		 String text = formatter.formatCellValue(cell);
+		
 	   // returning the cell value as string 
-	    return cell.getStringCellValue();
+		 return text;
+	  //  return cell.getStringCellValue();
 	 
 	  }
 	  

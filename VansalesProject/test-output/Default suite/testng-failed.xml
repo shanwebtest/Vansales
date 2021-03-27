@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageObject.gitHub_Login">
+      <class name="Transactions.StatementCollection_Parametarization">
         <methods>
+          <include name="teardown"/>
           <include name="beforeSuite"/>
+          <include name="BeforeTest"/>
+          <include name="FieldValidation" invocation-numbers="0"/>
           <include name="closeBrosers"/>
-          <include name="login"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- PageObject.gitHub_Login -->
+      </class> <!-- Transactions.StatementCollection_Parametarization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
